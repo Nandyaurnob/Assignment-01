@@ -97,12 +97,14 @@
     text-align: center;
 }
 
-.Amount:hover {
+.Amount:hover, .Amount.active{
     background-color: #FFEEEE;
     border: 2px solid#FF5959;
     outline: none;
     cursor: pointer;
 }
+
+
 
 .Amount h3:hover{
     color: #FF5959;  
