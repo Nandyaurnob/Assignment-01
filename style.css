@@ -165,6 +165,7 @@
     display: flex;
     justify-content: center;
     margin: 5px 0;
+    color:  white;
 }
 
 .column-1{
@@ -188,7 +189,7 @@
     border: 1px solid #666;
     margin: 20px;
     padding: 10px;
-    background: #FFF4D6;
+    background: #4F9DA6;
 }
 
 footer{
