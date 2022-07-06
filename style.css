@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-header{
+	height: 100vh;
+	background: linear-gradient(rgba(255, 255, 255, 0),rgba(4,9,30,0.7)), url(images/donation0.jpg) no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+
+.home-header .center{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center p{
+    color: white;
+    font-size: 20px;
+    font-weight: regular;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 25px 400px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #FF5959;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Donate-Today{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Donate-Today h1{
+    color: #121212;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Donate-Today p{
+    color: #707070;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Amount {
+    flex-basis: 31%;
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding: 80px 50px 80px 50px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.Amount h3{
+    color: #707070;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Amount:hover {
+    background-color: #FFEEEE;
+    border: 2px solid#FF5959;
+    outline: none;
+    cursor: pointer;
+}
+
+.Amount h3:hover{
+    color: #FF5959;  
+}
+
+.input{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input .buttons button{
+    margin: 20px;
+}
+
+.input [type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 80%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Our-Donate-Plan{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Our-Donate-Plan h1{
+    color: #121212;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Our-Donate-Plan p{
+    color: #707070;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.fix_promo_area{
+    padding: 5px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.columns{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.column-1{
+    flex: 1;
+    border: 1px solid #666;
+    margin: 20px;
+    padding: 10px;
+    background: #4F9DA6;
+}
+
+.column-2{
+    flex: 1;
+    border: 1px solid #666;
+    margin: 20px;
+    padding: 10px;
+    background: #FF5959;
+}
+
+.column-3{
+    flex: 1;
+    border: 1px solid #666;
+    margin: 20px;
+    padding: 10px;
+    background: #FFF4D6;
+}
+
+footer{
+    background: #0B0D17;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #FAFAFA;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h2{
+    color: #FF5959;
+}
+
+.footer-content p{
+    padding: 10px;
+    margin: 10px;
+}
+
+
